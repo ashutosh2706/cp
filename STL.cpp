@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 #define show(s) for(auto a:s) cout<<a<<" ";
+#define all(a) a.begin(),a.end()
+#define ll long long
+#define rep(i,a,b) for(ll i=a;i<b;++i)
+#define mem(o,v) memset(o,v,sizeof(o))
 
 using namespace std;
 
@@ -41,8 +45,8 @@ int main()
     that uses insertion sort, quick sort and heap sort
 
     insertion sort -> best O(n) worst O(n^2)
-    heap sort -> all cases O(logn)
-    quick sort -> best case O(nlogn) worst case O(n)
+    heap sort -> all cases O(nlogn)
+    quick sort -> best case O(nlogn) worst case O(n^2)
 
     */
 
